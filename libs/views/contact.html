@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="../../index.html">Home</a>
+      <a href="./presentation.html">Présentation</a>
+      <a href="./contact.html" class="active">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <img
+        src="https://static.turbosquid.com/Preview/2016/06/10__07_24_58/Trollface_001_Thumbnail_Square0000.jpg8d057047-a7d0-44d2-85c2-0b0ac085325eLarge.jpg"
+        alt="avatar"
+        id="avatar"
+      />
+    </div>
+
+    <section class="container">
+      <section class="form">
+        <form action="#" method="get" id="myForm">
+          <div class="form-input">
+            <label for="ujet">Sujet</label>
+            <input class="input" type="text" id="sujet" />
+          </div>
+          <div class="form-input">
+            <label for="mes">Message</label>
+            <textarea
+              class="input"
+              name="mes"
+              id="mes"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="form-btn">
+            <button type="button" class="btn" id="btn-1">Envoyer</button>
+            <button type="reset" class="btn" id="btn-2">Annuler</button>
+          </div>
+        </form>
+      </section>
+    </section>
+  </body>
+</html>
